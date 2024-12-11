@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL SHOWCASE by kavya trivedi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="">update Comming soon</a>
+            <!-- <a href="">soon</a> -->
+        </nav>
+    </header>
+
+    <!-- carousel by kavya -->
+    <div class="carousel">
+        <!-- list item by kavya -->
+        <div class="list">
+            <div class="item">
+                <img src="images/iron-transformed.jpeg"> 
+                <!-- loki per , venom per  -->
+                <div class="content">
+                    <div class="author">KAVYA</div>
+                    <div class="title">IRONMAN</div>
+                    <div class="topic">MARVEL</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Iron Man, the persona of billionaire genius Tony Stark, represents the pinnacle of innovation and resilience. Armed with cutting-edge technology and a suit of high-powered armor, Tony defends the world using his mind as much as his strength . Note that This webpage is develop by kavya trivedi .Beneath the sarcastic wit and confidence lies a man haunted by his past mistakes, driven to make a difference.
+                    </div>
+                    <div class="buttons" id="kavyatrivedi">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/venom-transformed.jpeg">
+                <div class="content">
+                    <div class="author">KAVYA</div>
+                    <div class="title">VENOM</div>
+                    <div class="topic">MARVEL</div>
+                    <div class="des">
+                        Venom is an enigmatic force, a symbiotic being that exists in the grey area between hero and villain. Bonded with Eddie Brock, this alien entity brings out both the darkest and most heroic sides of its host. Note that This webpage is develop by kavya trivedi . With a primal strength and raw ferocity, Venom is a being driven by instinct, but it also has a strange sense of loyalty, often choosing to protect those it considers its own.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/loki-transformed.jpeg">
+                <div class="content">
+                    <div class="author">KAVYA</div>
+                    <div class="title">LOKI</div>
+                    <div class="topic">MARVEL</div>
+                    <div class="des">
+                        
+                        Loki, the God of Mischief, is a complex and captivating figure who blurs the line between hero and villain. Born with the power of illusion and a sharp intellect, he thrives on chaos and unpredictability, often challenging fate with his wit and cunning. Note that This webpage is develop by kavya trivedi .Beneath his often cold and calculating exterior, he struggles with vulnerabilities and a hidden desire for acceptance, making him both a trickster and a tragic anti-hero.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/thor2.jpg"> 
+                <!-- thorr-left vado by kavya trivedi-->
+                <div class="content">
+                    <div class="author">KAVYA</div>
+                    <div class="title">THOR</div>
+                    <div class="topic">MARVEL</div>
+                    <div class="des">
+                        Thor, the God of Thunder, is a powerful and noble warrior from Asgard, known for his immense strength, courage, and unwavering sense of justice. Thor’s journey is one of humility and growth, evolving from a brash and impulsive prince to a wise and self-sacrificing leader. Note that This webpage is develop by kavya trivedi . As a guardian of both Earth and the cosmos, he shoulders a destiny as vast as the stars.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="images/venom-transformed.jpeg">
+                <div class="content">
+                    <div class="title">
+                       VENOM
+                    </div>
+                    <div class="description">
+                        Let There Be Carnage...
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="/images/im3.jpg">
+                <div class="content">
+                    <div class="title">
+                        IRONMAN
+                    </div>
+                    <div class="description">
+                        I CAN CHANGE THE GAME 
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/loki-transformed.jpeg">
+                <div class="content">
+                    <div class="title">
+                        LOKI
+                    </div>
+                    <div class="description">
+                       I am burdened with glorious purpose
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/thor.jpg">
+                <div class="content">
+                    <div class="title">
+                       THOR
+                    </div>
+                    <div class="description">
+                        I AM THE GOD OF THUNDER 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- project idea heors ni website avu kayik banayish //  ten real hero // movies etc -->
+
+<!-- <body>
+    <div class="navbar">
+        <button id="infoButton">Info</button>
+    </div>
+    <div class="slideshow">
+        <img id="photo" src="photo1.jpg" alt="Slideshow Photo">
+    </div>
+
+    <script>
+        // Array of photos with their corresponding webpage links
+        const photos = [
+            { src: 'photo1.jpg', infoPage: 'info1.html' },
+            { src: 'photo2.jpg', infoPage: 'info2.html' },
+            { src: 'photo3.jpg', infoPage: 'info3.html' }
+        ];
+        
+        let currentPhotoIndex = 0;
+        const photoElement = document.getElementById('photo');
+
+        function updatePhoto() {
+            currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;  // Move to the next photo
+            photoElement.src = photos[currentPhotoIndex].src;  // Update photo source
+        }
+
+        setInterval(updatePhoto, 7000);  // Change photo every 7 seconds
+
+        // Event listener for clicking on the photo to open the associated webpage
+        photoElement.addEventListener('click', () => {
+            window.location.href = photos[currentPhotoIndex].infoPage;  // Navigate to the webpage of the current photo
+        });
+
+        // Optional: Info button to manually open the associated webpage
+        document.getElementById('infoButton').addEventListener('click', () => {
+            window.location.href = photos[currentPhotoIndex].infoPage;
+        });
+    </script> -->
